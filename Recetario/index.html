@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECETARIO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <h1>RECETAS DE SANJI</h1>
+        <img src="/Imagenes/Sanji.jpg" alt="Sanji" class="center">
+        <p class = "perfil"> Perfil </p>
+        <p class="intro-text">Un cocinero marino de primera clase que se encarga de alimentar a la tripulación de Sombrero de Paja. Su habilidad para seleccionar ingredientes y convertirlos en platillos exquisitos es la mejor del mundo, pero también es especialista en las técnicas de patada que le enseñó Zeff "Pie Rojo", su maestro. Por otra parte, es sumamente (débil) ante las mujeres.</p>
+
+    <div class="introduccion">
+        <p>¿Has probado mis platillos? Ya tengo muchos años siendo cocinero y viajando por el mar demostrando mis habilidades. Mis nakama y yo nos hemos topado con un montón de ingredientes durante nuestras aventuras, así que se me ocurrió impartir una capacitación especial de esos conocimientos gastronómicos.</p>
+        <p>Las recetas incluyen ingredientes que no existen en tu mundo, así que no te preocupes: puedes utilizar algo semejante. Te garantizo que quedará muy sabroso.</p>
+        <p>Diseñé los procedimientos para que se puedan completar con rapidez, como cuando trabajo en el barco. A fin de cuentas... cocinar es amar. "Si al pelar las cáscaras falta amor... cualquier platillo pierde su delicioso sabor." ¡Da siempre lo mejor de ti!</p>
+    </div> 
+    
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Busca un platillo..." onkeyup="searchRecipes()">
+        <button id="search-button">🔍</button>
+    </div>
+    
+    <div class="contenedor-recetas">
+        <div class="recetas" id="arroz-frito">
+            <a href="enlaces/arrozfrito.html" title="Arroz frito" class="receta-link">
+                <img src="Imagenes/Arrozfrito.jpg" alt="Arroz frito">
+                <span>El arroz frito de Gin</span>
+            </a>
+        </div>
+    
+        <div class="recetas" id="sopa-asquerosa">
+            <a href="enlaces/sopa asquerosa.html" title="Sopa asquerosa" class="receta-link">
+                <img src="Imagenes/sopa.jpg" alt="Sopa asquerosa">
+                <span>La sopa asquerosa de Sanji</span>
+            </a>
+        </div>
+    </div>
+    
+    
+    <div class="recetario-fisico">
+        <a href="enlaces/recfisico.html" title="Recetario físico" class="receta-link" onclick="return confirm('¿Estás listo para adquirir el recetario secreto?')">
+            <img src="./Imagenes/recfisico.jpg" alt="Recetario físico">
+            <span>Compra recetario físico</span>
+        </a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>  
+    
+
+
